@@ -4,7 +4,7 @@ export const instituteInfo = {
   affiliation: "Affiliated with CPISD (Career Point Institute of Skill Development) Training Centre # TC427595",
   address: "RITM, Lane Nagar Niwas, Prateet Nagar Dandi, Raiwala, Dehradun, Uttarakhand - 248205",
   addressShort: "Raiwala, Dehradun, Uttarakhand",
-  phone: "0135-3233593 / +91 90687 82139",
+  phone: "+91 90687 82139",
   email: "rabocheadmin@gmail.com",
   whatsapp: "919068782139",
   upDivision: {
