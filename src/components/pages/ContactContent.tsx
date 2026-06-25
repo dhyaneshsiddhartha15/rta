@@ -36,9 +36,13 @@ export default function ContactContent() {
                   </div>
                   <div>
                     <p className="text-sm font-medium text-primary">{t.common.phone}</p>
-                    <a href={`tel:${instituteInfo.phone}`} className="text-sm text-warm-gray hover:text-accent-dark">
-                      {instituteInfo.phone}
-                    </a>
+                    <div className="flex items-center gap-2">
+                      <a href={`tel:${instituteInfo.phone}`} className="text-sm text-warm-gray hover:text-accent-dark">
+                        {instituteInfo.phone}
+                      </a>
+                      <span className="text-sm text-warm-gray/50">|</span>
+                      <span className="text-sm text-warm-gray">{instituteInfo.landline}</span>
+                    </div>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">

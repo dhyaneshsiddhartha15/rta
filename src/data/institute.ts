@@ -5,6 +5,7 @@ export const instituteInfo = {
   address: "RITM, Lane Nagar Niwas, Prateet Nagar Dandi, Raiwala, Dehradun, Uttarakhand - 248205",
   addressShort: "Raiwala, Dehradun, Uttarakhand",
   phone: "+91 90687 82139",
+  landline: "01353233593",
   email: "rabocheadmin@gmail.com",
   whatsapp: "919068782139",
   upDivision: {
