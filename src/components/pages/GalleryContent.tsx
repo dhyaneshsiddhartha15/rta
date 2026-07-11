@@ -21,7 +21,7 @@ const chefHatIcon = (
   </svg>
 );
 
-const categoryKeys = ["kitchen", "reception", "bar", "cruise", "training"] as const;
+const categoryKeys = ["campus"] as const;
 type CategoryKey = (typeof categoryKeys)[number];
 type FilterKey = "all" | CategoryKey;
 
@@ -36,40 +36,11 @@ const filterIcons: Record<FilterKey, ReactNode> = {
       <rect width="7" height="7" x="14" y="14" rx="1" />
     </svg>
   ),
-  kitchen: (
-    <svg {...svgBase} className={iconClass}>
-      <path d="M3 11h18" />
-      <path d="M19 11v8a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-8" />
-      <path d="m5 8 14-3" />
-    </svg>
-  ),
-  reception: (
+  campus: (
     <svg {...svgBase} className={iconClass}>
       <path d="M3 21h18" />
-      <path d="M4 21v-7a8 8 0 0 1 16 0v7" />
-      <path d="M12 6V4" />
-      <path d="M9 4h6" />
-    </svg>
-  ),
-  bar: (
-    <svg {...svgBase} className={iconClass}>
-      <path d="M8 22h8" />
-      <path d="M12 11v11" />
-      <path d="m19 3-7 8-7-8Z" />
-    </svg>
-  ),
-  cruise: (
-    <svg {...svgBase} className={iconClass}>
-      <path d="M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" />
-      <path d="M19.38 20A11.6 11.6 0 0 0 21 14l-9-4-9 4c0 2.9.94 5.34 2.81 7.76" />
-      <path d="M19 13V7a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v6" />
-      <path d="M12 10v4M12 2v3" />
-    </svg>
-  ),
-  training: (
-    <svg {...svgBase} className={iconClass}>
-      <path d="M22 10 12 5 2 10l10 5 10-5Z" />
-      <path d="M6 12v5c0 1 2.5 3 6 3s6-2 6-3v-5" />
+      <path d="M5 21V7l8-4 8 4v14" />
+      <path d="M8 9a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v12H8V9Z" />
     </svg>
   ),
 };

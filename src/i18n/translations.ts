@@ -393,11 +393,7 @@ export const translations: Record<Locale, Translations> = {
         "Photos of our practical training labs — Kitchen, Front Office, Mock Bar, and hands-on hospitality sessions.",
       allPhotos: "All Photos",
       categories: {
-        kitchen: "Kitchen",
-        reception: "Front Office",
-        bar: "Mock Bar",
-        cruise: "Cruise",
-        training: "Training",
+        campus: "Campus",
       },
       shareNoteBold: "Have campus photos to share?",
       shareNote:
@@ -662,11 +658,7 @@ export const translations: Record<Locale, Translations> = {
         "हमारे व्यावहारिक प्रशिक्षण लैब की तस्वीरें — रसोई, फ्रंट ऑफिस, मॉक बार और हाथों-हाथ हॉस्पिटैलिटी सत्र।",
       allPhotos: "सभी तस्वीरें",
       categories: {
-        kitchen: "रसोई",
-        reception: "फ्रंट ऑफिस",
-        bar: "मॉक बार",
-        cruise: "क्रूज़",
-        training: "प्रशिक्षण",
+        campus: "कैंपस",
       },
       shareNoteBold: "कैंपस की तस्वीरें साझा करना चाहते हैं?",
       shareNote:
